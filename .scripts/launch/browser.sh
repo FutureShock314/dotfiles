@@ -1,5 +1,5 @@
 #!/bin/bash
 
-browser = 'firefox'
+browser='firefox'
 
 "$browser"
