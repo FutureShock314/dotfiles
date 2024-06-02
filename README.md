@@ -4,6 +4,7 @@
 
 ## These are the dotfiles I use on Arch, with Hyprland! :)
 **To give credit where credit is due, the files in `.config/waybar/` and `.config/wlogout/` are originally from [PROxZIMA](https://github.com/PROxZIMA/.dotfiles), although I made some edits to better suit my taste :D**
+**The files in `.config/rofi/` are originally from [adi1090x](https://github.com/adi1090x/rofi/), again with my own small tweaks to the theme(s) I use :D**
 
 ---
 
