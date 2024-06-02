@@ -9,24 +9,47 @@
 
 ## How the hell do I use these???
 
-### Dependencies
+<details>
+
+<summary><h3>Dependencies</h3></summary>
 
 First off, you'll need some packages! (duh)
 > (Most of these are likely installed already, and dont forget to check over the list yourself before blindly installing them!)
 
 With Yay, on Arch:
-`yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git`
+```sh
+yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git
+```
 
-### Clone the repo!
+</details>
+
+<details>
+
+<summary><h3>Clone the repo!</h3></summary>
 
 Pick a directory (must be inside your $HOME directory, e.g. $HOME/dotfiles/) to clone this repo into (you can append it to the end of the command)
-`git clone https://github.com/FutureShock314/dotfiles`
+```sh
+git clone https://github.com/FutureShock314/dotfiles
+```
 
-### Just get them working already!!
+</details>
+
+<details>
+
+<summary><h3>Just get them working already!!</h3></summary>
+
 
 Now, all you have to do is, ensuring you have Stow installed (which you should, because it's in that dependency list from earlier), cd into the directory and run:
-`stow`
+```sh
+stow
+```
 
-### And you're done!
+</details>
+
+<details>
+
+<summary><h3>And you're done!</h3></summary>
 
 Now all that's left is to go enjoy your system :) (or not enjoy it, that's up to you)
+
+</details>
