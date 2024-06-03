@@ -42,7 +42,7 @@ git clone https://github.com/FutureShock314/dotfiles
 
 Now, all you have to do is, ensuring you have Stow installed (which you should, because it's in that dependency list from earlier), cd into the directory and run:
 ```sh
-stow
+stow .
 ```
 
 </details>
