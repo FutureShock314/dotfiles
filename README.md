@@ -19,7 +19,7 @@ First off, you'll need some packages! (duh)
 
 With Yay, on Arch:
 ```sh
-yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot
+yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot yad
 ```
 
 </details>

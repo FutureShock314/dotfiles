@@ -1,36 +1,36 @@
 {
   "label": "lock",
   "text": "Lock",
-  "action": "./actions lock",
+  "action": "home/ayaan/dotfiles/wlogout/actions lock",
   "keybind": "l"
 }
 {
   "label": "hibernate",
   "text": "Hibernate",
-  "action": "./actions hibernate",
+  "action": "/home/ayaan/dotfiles/wlogout/actions hibernate",
   "keybind": "h"
 }
 {
   "label": "suspend",
   "text": "Suspend",
-  "action": "./actions suspend",
+  "action": "home/ayaan/dotfiles/wlogout/actions suspend",
   "keybind": "u"
 }
 {
   "label": "reboot",
   "text": "Reboot",
-  "action": "./actions reboot",
+  "action": "home/ayaan/dotfiles/wlogout/actions reboot",
   "keybind": "r"
 }
 {
   "label": "logout",
   "text": "Logout",
-  "action": "./actions logout",
+  "action": "home/ayaan/dotfiles/wlogout/actions logout",
   "keybind": "e"
 }
 {
   "label": "shutdown",
   "text": "Shutdown",
-  "action": "./actions shutdown",
+  "action": "home/ayaan/dotfiles/wlogout/actions shutdown",
   "keybind": "s"
 }
