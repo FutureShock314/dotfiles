@@ -17,7 +17,8 @@ if [[ "$?" == 0 ]]; then
         playerctl --all-players stop
         ~/.scripts/lock
         sleep 0.5s
-        systemctl suspend-then-hibernate
+        # systemctl suspend-then-hibernate
+        systemctl suspend
     elif [[ "$1" == 'lock' ]]; then
         ~/.scripts/lock
     elif [[ "$1" == 'suspend' ]]; then

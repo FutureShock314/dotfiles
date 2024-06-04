@@ -28,13 +28,13 @@
         "network",
         "pulseaudio",
         //"backlight",
-        "battery",
-        "custom/notifications",
+        // "battery",
         "tray",
         "clock",
         // "custom/weather",
         // "custom/cycle_wall",
         // "custom/clipboard",
+        "custom/notifications",
         "custom/power"
         // "custom/custom"
     ],
