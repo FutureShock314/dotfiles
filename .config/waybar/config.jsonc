@@ -1,3 +1,4 @@
+// [ // uncomment + bottom for sidebar
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
@@ -319,4 +320,41 @@
         "on-click": "~/.scripts/tools/expand_toolbar",
         "return-type": "json"
     }
+},
+{
+  "layer": "top",
+  "position": "left",
+  "margin-left": 10,
+  "margin-right": 0,
+  "margin-top": 14,
+  "margin-bottom": 14,
+  "output": ["HDMI-A-1"],
+
+  "modules-center": [
+    "cava"
+  ],
+  "cava": {
+      "rotate": 90,
+//      "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+      "framerate": 60,
+      "autosens": 1,
+      "sensitivity": 1,
+      "bars": 110,
+      "lower_cutoff_freq": 50,
+      "higher_cutoff_freq": 10000,
+      // "method": "pipewire",
+      "source": "auto",
+      "stereo": true,
+      "reverse": false,
+      "bar_delimiter": 0,
+      "monstercat": false,
+      "waves": false,
+      "noise_reduction": 0.77,
+      "input_delay": 2,
+      "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+      "actions": {
+                 "on-click-right": "mode"
+                 }
+    }
 }
+// ]
