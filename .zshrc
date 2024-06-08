@@ -76,5 +76,13 @@ alias ll='ls -alF'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
+# funcs
+
+bd () {
+  for i in {1.."$1"}
+  do
+    cd ..
+  done
+}
 
 clear && pfetch

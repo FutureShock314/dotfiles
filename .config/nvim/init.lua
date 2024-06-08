@@ -24,6 +24,9 @@ require("lazy").setup({
       require "options"
     end,
   },
+  {
+    "elkowar/yuck.vim",
+  },
 
   { import = "plugins" },
 }, lazy_config)
