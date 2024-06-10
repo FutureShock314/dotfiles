@@ -2,11 +2,11 @@
 
 ---
 
-## These are the dotfiles I use on Arch, with Hyprland! :)
-**To give credit where credit is due, the files in `.config/waybar/` are originally from [PROxZIMA](https://github.com/PROxZIMA/.dotfiles), although I made some edits to better suit my taste :D**
-**The files in `.config/rofi/` are originally from [adi1090x](https://github.com/adi1090x/rofi/), again with my own small tweaks to the theme(s) I use :D**
-**`.config/swaync/` and `.config/wlogout/` come courtesy of [zDyanTB's HyprNova](https://github.com/zDyanTB/HyprNova), yet again with some tweaks to suit me obviously**
-**`.scripts/` is a mess of all the people mentioned :)**
+## These are the dotfiles I use on Arch, with Hyprland! :) <br>
+**To give credit where credit is due, the files in `.config/waybar/` are originally from [PROxZIMA](https://github.com/PROxZIMA/.dotfiles), although I made some edits to better suit my taste :D** <br>
+**The files in `.config/rofi/` are originally from [adi1090x](https://github.com/adi1090x/rofi/), again with my own small tweaks to the theme(s) I use :D** <br>
+**`.config/swaync/` and `.config/wlogout/` come courtesy of [zDyanTB's HyprNova](https://github.com/zDyanTB/HyprNova), yet again with some tweaks to suit me obviously** <br>
+**`.scripts/` is a mess of all the people mentioned :)** <br>
 
 ---
 
