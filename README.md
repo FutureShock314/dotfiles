@@ -21,7 +21,7 @@ First off, you'll need some packages! (duh)
 
 With Yay, on Arch:
 ```sh
-yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot yad
+yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot yad swaylock swaync
 ```
 
 </details>
@@ -30,10 +30,14 @@ yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacrit
 
 <summary><h3>Clone the repo!</h3></summary>
 
-Pick a directory (must be inside your $HOME directory, e.g. $HOME/dotfiles/) to clone this repo into (you can append it to the end of the command)
+Now, you need to actually get the dotfiles onto your system <br>
+To do this, `cd` into your $HOME directory, and run:
+
 ```sh
 git clone https://github.com/FutureShock314/dotfiles
 ```
+
+Now, check that there is a directory under `$HOME/dotfiles`, and that there are files within `$HOME/dotfiles/.config`, and, so long as there are ( there should be ), you're good to move onto the next step!
 
 </details>
 
