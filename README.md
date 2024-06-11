@@ -2,11 +2,11 @@
 
 ---
 
-## These are the dotfiles I use on Arch, with Hyprland! :)
-**To give credit where credit is due, the files in `.config/waybar/` are originally from [PROxZIMA](https://github.com/PROxZIMA/.dotfiles), although I made some edits to better suit my taste :D**
-**The files in `.config/rofi/` are originally from [adi1090x](https://github.com/adi1090x/rofi/), again with my own small tweaks to the theme(s) I use :D**
-**`.config/swaync/` and `.config/wlogout/` come courtesy of [zDyanTB's HyprNova](https://github.com/zDyanTB/HyprNova), yet again with some tweaks to suit me obviously**
-**`.scripts/` is a mess of all the people mentioned :)**
+## These are the dotfiles I use on Arch, with Hyprland! :) <br>
+**To give credit where credit is due, the files in `.config/waybar/` are originally from [PROxZIMA](https://github.com/PROxZIMA/.dotfiles), although I made some edits to better suit my taste :D** <br>
+**The files in `.config/rofi/` are originally from [adi1090x](https://github.com/adi1090x/rofi/), again with my own small tweaks to the theme(s) I use :D** <br>
+**`.config/swaync/` and `.config/wlogout/` come courtesy of [zDyanTB's HyprNova](https://github.com/zDyanTB/HyprNova), yet again with some tweaks to suit me obviously** <br>
+**`.scripts/` is a mess of all the people mentioned :)** <br>
 
 ---
 
@@ -21,7 +21,7 @@ First off, you'll need some packages! (duh)
 
 With Yay, on Arch:
 ```sh
-yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot yad
+yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacritty pavucontrol playerctl wlogout base-devel hyprland-git hyprshot yad swaylock swaync
 ```
 
 </details>
@@ -30,10 +30,14 @@ yay -S stow polkit-gnome hyprlock hypridle firefox rofi waybar-cava cava alacrit
 
 <summary><h3>Clone the repo!</h3></summary>
 
-Pick a directory (must be inside your $HOME directory, e.g. $HOME/dotfiles/) to clone this repo into (you can append it to the end of the command)
+Now, you need to actually get the dotfiles onto your system <br>
+To do this, `cd` into your $HOME directory, and run:
+
 ```sh
 git clone https://github.com/FutureShock314/dotfiles
 ```
+
+Now, check that there is a directory under `$HOME/dotfiles`, and that there are files within `$HOME/dotfiles/.config`, and, so long as there are ( there should be ), you're good to move onto the next step!
 
 </details>
 
