@@ -10,3 +10,4 @@ if [ "$open" = "" ]; then
 else
   hyprctl dispatch togglespecialworkspace outlook
 fi
+

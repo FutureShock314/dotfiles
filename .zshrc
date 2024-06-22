@@ -71,6 +71,7 @@ alias vim='nvim'
 alias cl='clear'
 
 alias ll='ls -alF'
+alias update='yay -Syyu'
 
 # Shell integrations
 eval "$(fzf --zsh)"

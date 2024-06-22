@@ -1,0 +1,15 @@
+#!/bin/bash
+
+win11="virt-manager -c qemu:///system --show-domain-console win11"
+
+open="$(hyprctl clients | grep 'win11')"
+echo $open
+
+if [ "$open" = "" ]; then
+  echo 'virt-manager is not open'
+  hyprctl dispatch exec "[workspace special:vm] ${win11}"
+else
+  echo 'virt-manager is open'
+  hyprctl dispatch togglespecialworkspace vm
+fi
+
